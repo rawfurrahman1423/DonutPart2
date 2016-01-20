@@ -1,0 +1,7 @@
+h1 {
+    text-shadow: 2px 2px red;
+    color: red;
+}
+body {
+    background-image: url("background2.png");
+}
