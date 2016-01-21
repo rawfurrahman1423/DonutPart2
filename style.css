@@ -12,3 +12,9 @@ body {
   border: 2px solid black;
 }
 
+#Cloud {
+    position: relative;
+    left: 30px;
+    transform: rotate(-10deg);
+}
+
