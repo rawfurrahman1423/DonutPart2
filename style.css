@@ -1,4 +1,6 @@
 h1 {
-    text-shadow: 2px 2px yellow;
+    text-shadow: 1px 1px 7px blue;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 75px;
 }
-
