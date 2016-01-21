@@ -4,9 +4,9 @@ h1 {
     text-align: center;
     font-size: 75px;
 }
-#largest {
-    background-image: url(background2.png);
-    background-position: left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;background-image: url(background2.png);
+
+body {
+    background-image: url("https://pixabay.com/static/uploads/photo/2015/10/17/17/15/background-992858_960_720.png");
+    background-size: 100px 100px;
+    
 }
