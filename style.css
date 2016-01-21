@@ -14,8 +14,13 @@ body {
 
 #Cloud {
     position: relative;
-    left: 30px;
+    left: 50px;
     transform: rotate(-10deg);
+    transition: transform 2s;
+}
+
+#Cloud:hover {
+     transform: scale(1.5)
 }
 #Donut1{
     
