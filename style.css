@@ -8,5 +8,6 @@ h1 {
 body {
     background-image: url("https://pixabay.com/static/uploads/photo/2015/10/17/17/15/background-992858_960_720.png");
     background-size: 100px 100px;
-    
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,250,.5));
+  border: 2px solid black;
 }
