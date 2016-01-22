@@ -3,6 +3,8 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 75px;
+    animation-duration: 7s;
+    animation-name: potato;
 }
 
 body {
@@ -57,10 +59,11 @@ h2 {
     position: relative;
     left: 800px;
     bottom: 300px;
-    animation-duration: 4s;
+    text-shadow: 1px 1px 7px blue;
+    animation-duration: 7s;
     animation-name: potato;
 }
-@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+@keyframes potato {
+    from {color: blue;}
+    to {color: black;}
 }
