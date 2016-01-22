@@ -57,4 +57,10 @@ h2 {
     position: relative;
     left: 800px;
     bottom: 300px;
+    animation-duration: 4s;
+    animation-name: potato;
+}
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
