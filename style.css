@@ -3,6 +3,8 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 75px;
+    animation-duration: 7s;
+    animation-name: potato;
 }
 
 body {
@@ -62,8 +64,6 @@ h2 {
 
 h3 {
   font-family: 'Open Sans', sans-serif;
-      font-stretch: expanded;
-
     font-size: 50px;
     position: relative;
     left: 925px;
@@ -80,3 +80,9 @@ h4 {
     letter-spacing: 5px;
     text-shadow: 1px 1px 2px white;
 }
+
+
+@keyframes potato {
+from {color: blue;}
+to {color: black;}
+  }
