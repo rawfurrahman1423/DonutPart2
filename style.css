@@ -1,98 +1,98 @@
 h1 {
-    text-shadow: 1px 1px 7px blue;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 75px;
-    animation-duration: 5.5s;
-    animation-name: potato;
-    animation-delay: 2s;
+    text-shadow: 1px 1px 7px blue; /* adds text shadow */
+    font-family: 'Open Sans', sans-serif; /* Type of font */
+    text-align: center; /* text starts at the center */
+    font-size: 75px; 
+    animation-duration: 5.5s; /* sets how lng the animation will last */
+    animation-name: potato; /* the animation is called potato */
+    animation-delay: 2s; /* waits 2 seconds before starting animation */
 }
 
 h2 { 
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    position: relative;
-    left: 800px;
-    bottom: 300px;
-    animation-duration: 15s;
-    animation-name: potato;
+    font-family: 'Oswald', sans-serif; /* font tyoe is changed */
+    font-size: 50px; 
+    position: relative; /* h2 is set reletive to its normal position */
+    left: 800px; /* starts 800px from the left */
+    bottom: 300px; /* starts 300x from bottom */
+    animation-duration: 15s; /* animation last for 15 seconds */
+    animation-name: potato; /* name of animation */
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    position: relative;
-    left: 925px;
+  font-family: 'Open Sans', sans-serif; 
+    font-size: 50px; 
+    position: relative; 
+    left: 925px; 
     bottom: 100px;  
-    animation-duration: 7s;
-    animation-name: potato;
-}
+    animation-duration: 7s; 
+    animation-name: potato; 
+} 
 
 h4 {
-    font-family: 'Petit Formal Script', cursive;
-    font-weight: bold;
-    color: #0000cc;
-    font-size: 20px;
-    position: relative;
-    left: 800px;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 2px white;
-    animation-duration: 7s;
-    animation-name: potato;
+    font-family: 'Petit Formal Script', cursive; /* The font will be Petit Formal Script and it will be written in cursive if it doesn't work*/
+    font-weight: bold; /* font will be bold */
+    color: #0000cc; /* sets color */
+    font-size: 20px; /* the scale of the font */
+    position: relative; 
+    left: 800px; 
+    letter-spacing: 5px;  /* space between each letter */
+    text-shadow: 1px 1px 2px white; /* outline of the words */
+    animation-duration: 7s; 
+    animation-name: potato; 
 }
 
 body {
-    background-image: url("https://pixabay.com/static/uploads/photo/2015/10/17/17/15/background-992858_960_720.png");
-    background-size: 100px 100px;
-  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,250,.5));
-  border: 2px solid black;
+    background-image: url("https://pixabay.com/static/uploads/photo/2015/10/17/17/15/background-992858_960_720.png"); /* background image is set // currently not in effect */
+    background-size: 100px 100px; /* sze fo the backgroudn image */
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,250,.5)); /* This adds a faiding effect to the background color */
+  border: 2px solid black; /* sets a black border around the background or edges of background */
 }
 
 #Cloud {
-    position: relative;
-    left: 50px;
-    transform: rotate(-10deg);
-    transition: transform 1s;
+    position: relative; 
+    left: 50px; 
+    transform: rotate(-10deg); /* The images will rotate -10 degrees or counter clock wise 10 */
+    transition: transform 1s; /* speed of the transformation */
 }
 
-#Cloud:hover {
-     transform: scale(1);
+#Cloud:hover { /* if the mouse is over this images, then the following will take effect */
+     transform: scale(2); /* the object/image will change // expand rapidly */
 }
 
-#Donut1{
-    width: 200px;
-    height: 150px;
-    position: relative;
-    top: 150px;
-    left:100px;
-    transition: width 1s, height 1s, transform 2s;
+#Donut1{ 
+    width: 200px; 
+    height: 150px; 
+    position: relative; 
+    top: 150px; 
+    left:100px; 
+    transition: width 1s, height 1s, transform 2s; /* movement of the images in specific dementions and will take effect in 2 seconds */
    
 }
 
-#Donut1:hover {
-    width: 300px;
-    height: 100px;
-    transform: rotate(1080deg) scale(1.5,1.5);
+#Donut1:hover { 
+    width: 300px; 
+    height: 100px; 
+    transform: rotate(1080deg) scale(1.5,1.5); /* Object will rotate over and over and the size will chnage and get large */
 }
 
-#donut2{
-   width: 200px;
-    height: 150px;
-    position: relative;
-    top: 150px;
-    left: 400px;
-    transition: width 1s, height 1s, transform 2s;
-} 
+#donut2{ 
+   width: 200px; 
+    height: 150px; 
+    position: relative; 
+    top: 150px; 
+    left: 400px; 
+    transition: width 1s, height 1s, transform 2s; /* Image will move and get larger leads into movement code bellow*/
+}  
 
-#donut2:hover {
-    width: 300px;
+#donut2:hover { 
+    width: 300px; 
     height: 100px;
-    transform: rotate(1080deg) scale(1.5,1.5);
+    transform: rotate(1080deg) scale(1.5,1.5); /* will roatate over and over again and will get larger*/
 }
 
-@keyframes potato {
-from {color: blue;}
-to {color: black;}
-  }
+@keyframes potato { /* name of the animation linked by other sections */
+from {color: blue;} /* starts at color 2 */
+to {color: black;} /* changes color to black */
+  } /* can change depending on previous code in the original # */
 
   
