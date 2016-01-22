@@ -1,6 +1,6 @@
 h1 {
     text-shadow: 1px 1px 7px blue;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 75px;
 }
@@ -57,4 +57,26 @@ h2 {
     position: relative;
     left: 800px;
     bottom: 300px;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+      font-stretch: expanded;
+
+    font-size: 50px;
+    position: relative;
+    left: 925px;
+    bottom: 100px;  
+}
+
+h4 {
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+    color: #0000cc;
+    font-size: 20px;
+    position: relative;
+    left: 800px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px white;
 }
